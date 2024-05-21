@@ -1,0 +1,160 @@
+.nav-bar{
+  display: flex;
+  flex-direction:column;
+  gap: 40px;
+  padding-bottom: 30px;
+  background-color: rgb(233, 233, 233);
+ 
+}
+
+.primer-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  gap:10px  
+}
+
+.one h1{
+margin-bottom: -18px;
+}
+
+.one p{
+  font-style: italic;
+  color: rgb(163, 163, 163);
+}
+
+.two {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-right: 40px;
+  gap: 10px;
+  font-weight: 600;
+  
+}
+
+.i-uno{
+  background-color:rgb(202, 202, 202);
+  height: 28px;
+  font-weight: 700;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+}
+
+.segundo-nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.three{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: large;
+
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-right: 90px;
+
+}
+
+.Input1{
+border-radius: 10px;
+}
+
+
+.hero {
+
+  background-image: url("https://img.freepik.com/vector-gratis/moda-accesorios-ropa-patrones-fisuras_1284-3636.jpg?w=740&t=st=1714061501~exp=1714062101~hmac=23038015e3dd6bb878474a6a54917c9bcd03965d4006a402e25399173dbfe5cf");
+  height: 400px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.hero h2{
+  font-size: 4rem;
+}
+
+.hero h4{
+  font-size: larger;
+  font-style: italic;
+}
+
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-auto-rows: minmax(100px, auto);
+  text-align: center;
+  
+
+}
+
+.bloque{
+  border-top: 20px rgb(223, 205, 154) solid;
+  background-color: rgb(233, 233, 233);
+  padding-bottom: 40px;
+}
+
+.Titulo{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.uno h3 {
+  font-weight: light;
+  font-style: italic;
+}
+
+.uno img {
+  width: 250px;
+  height: 250px;
+  border: 4px black solid;
+}
+
+.Footer {
+  display: flex;
+  height: 200px;
+  background-color: #e2d0ba;
+  color: rgb(0, 0, 0);
+  justify-content: space-between;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-bottom: 40px rgb(156, 142, 111) solid; /* Acá si va solid porque es un contenedor, un Div. */
+  
+}
+/* Footer --------------------------------------- */
+
+.title{
+  text-align:center;
+  align-items: center;
+  margin-top: 4rem;
+  font-size: large;
+  font-weight:bolder;
+  font-style: italic;
+}
+
+.texto1{
+  margin-top: 2rem;
+}
+
+.texto2{
+  margin-top: 2rem;
+  text-align: right;
+}
+
+/* Footer -----------------------------------------*/
