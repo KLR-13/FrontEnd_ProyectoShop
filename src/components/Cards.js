@@ -5,7 +5,7 @@ export default function Cards() { //Export es para exportar todo para llevarlo a
 const [products, setProducts]=useState([]) //Acá se guarda la info de la API
 
 useEffect(()=>{
-    axios.get("http://localhost:3001/products")
+    axios.get("https://backend-proyectoshop.onrender.com/products")
     .then((data)=>setProducts(data.data)) // Esta data es a lo que responde el axios... Si sale bien.
 .catch((error)=>console.log(error))
 },[]) 

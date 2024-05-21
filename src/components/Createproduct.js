@@ -12,7 +12,7 @@ export default function Createproduct() {
     }
 
     const handleSubmit = () => {
-        axios.post("http://localhost:3001/products",product) //El Back recibe el product en azul, o sea, los datos que subimos.
+        axios.post("https://backend-proyectoshop.onrender.com/products",product) //El Back recibe el product en azul, o sea, los datos que subimos.
     .then((data)=>console.log(data)) //Para enviar la data, muestra la data con el console.log
     .catch((data)=>console.log(data)) // Toma la data, la exhiba y muestra si todo salió bien o mal.
     }

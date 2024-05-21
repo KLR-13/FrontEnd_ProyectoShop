@@ -9,7 +9,7 @@ export default function Productdetail() { //Export es para exportar todo para ll
 
     useEffect(() => {
         console.log(id)
-        axios.get(`http://localhost:3001/products/${id}`) // Incrustamos una variable de ID, porque es lo que busca.
+        axios.get(`https://backend-proyectoshop.onrender.com/products/${id}`) // Incrustamos una variable de ID, porque es lo que busca.
             //Los Backsticks sirven para poner variables dentro, sirven para estos caso.
             .then((data) => {
                 console.log(data.data)
@@ -19,7 +19,7 @@ export default function Productdetail() { //Export es para exportar todo para ll
     }, [])
 
     const handleDelete = () => {
-        axios.delete(`http://localhost:3001/products/${id}`)
+        axios.delete(`https://backend-proyectoshop.onrender.com/products/${id}`)
             .then((data) => console.log(data))
             .catch((error) => console.log(error))
     }

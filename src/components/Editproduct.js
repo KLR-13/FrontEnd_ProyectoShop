@@ -7,7 +7,7 @@ export default function Editproduct({producto}) {
 
     const handlePut = () => {
         console.log(product)
-        axios.put (`http://localhost:3001/products/edit/${product.id}`, product)
+        axios.put (`https://backend-proyectoshop.onrender.com/products/edit/${product.id}`, product)
         .then((data) => console.log(data))
         .catch((error) => console.log(error))
     }
